@@ -1,0 +1,592 @@
+@font-face {
+  font-family: 'Norse';
+  src: url('./../fonts/Norse(1)/Norse.eot?#iefix') format('embedded-opentype'), 
+   url('./../fonts/Norse(1)/Norse.otf')  format('opentype'),
+	url('./../fonts/Norse(1)/Norse.woff') format('woff'),
+	url('./../fonts/Norse(1)/Norse.ttf')  format('truetype'), 
+	url('./../fonts/Norse(1)/Norse.svg#Norse') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url('./../fonts/Norse-Bold/Norse-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('./../fonts/Norse-Bold/Norse-Bold.otf')  format('opentype'),
+	     url('./../fonts/Norse-Bold/Norse-Bold.woff') format('woff'), 
+	     url('./../fonts/Norse-Bold/Norse-Bold.ttf')  format('truetype'),
+	     url('./../fonts/Norse-Bold/Norse-Bold.svg#Norse-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AquateScriptPERSONALUSEONLY';
+  src: url('./../fonts/AquateScript/AquateScriptPERSONALUSEONLY.eot?#iefix') format('embedded-opentype'), 
+   url('./../fonts/AquateScript/AquateScriptPERSONALUSEONLY.woff') format('woff'), 
+   url('./../fonts/AquateScript/AquateScriptPERSONALUSEONLY.ttf')  format('truetype'), 
+   url('./../fonts/AquateScript/AquateScriptPERSONALUSEONLY.svg#AquateScriptPERSONALUSEONLY') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa-Regular';
+  src: url('./../fonts/Comfortaa-Regular/Comfortaa-Regular.eot?#iefix') format('embedded-opentype'), 
+   url('./../fonts/Comfortaa-Regular/Comfortaa-Regular.woff') format('woff'), url('Comfortaa-Regular.ttf')  format('truetype'),
+   url('./../fonts/Comfortaa-Regular/Comfortaa-Regular.svg#Comfortaa-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ComicSansMS';
+  src: url('./../fonts/ComicSansMS/ComicSansMS.eot?#iefix') format('embedded-opentype'),  
+  url('./../fonts/ComicSansMS/ComicSansMS.woff') format('woff'), url('ComicSansMS.ttf')  format('truetype'),
+   url('./../fonts/ComicSansMS/ComicSansMS.svg#ComicSansMS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Athelas-BoldItalic';
+  src: url('./../fonts/Athelas-BoldItalic/Athelas-BoldItalic.eot?#iefix') format('embedded-opentype'), 
+   url('./../fonts/Athelas-BoldItalic/Athelas-BoldItalic.woff') format('woff'),
+   url('./../fonts/Athelas-BoldItalic/Athelas-BoldItalic.ttf')  format('truetype'),
+   url('./../fonts/Athelas-BoldItalic/Athelas-BoldItalic.svg#Athelas-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Athelas-Regular';
+  src: url('./../fonts/Athelas-Regular.eot?#iefix') format('embedded-opentype'), 
+   url('./../fonts/Athelas-Regular.woff') format('woff'), url('Athelas-Regular.ttf')  format('truetype'), 
+   url('./../fonts/Athelas-Regular.svg#Athelas-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'AmaticSC-Regular';
+  src: url('./../fonts/AmaticSC-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('./../fonts/AmaticSC-Regular.woff') format('woff'), url('AmaticSC-Regular.ttf')  format('truetype'), 
+  url('./../fonts/AmaticSC-Regular.svg#AmaticSC-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*font style*/
+.Norse
+{
+	font-family: 'Norse';
+}
+
+.Norse-Bold
+{
+	 font-family: 'Norse-Bold';
+}
+.AquateScript
+{
+	font-family: 'AquateScriptPERSONALUSEONLY';
+}
+
+.Comfortaa-Regular
+{
+	font-family: 'Comfortaa-Regular';
+}
+
+.ComicSansMS
+{
+	 font-family: 'ComicSansMS';
+}
+
+.Athelas-BoldItalic
+{
+	font-family: 'Athelas-BoldItalic';
+}
+.Athelas-Regular
+{
+	 font-family: 'Athelas-Regular';
+}
+.AmaticSC-Regular
+{
+	 font-family: 'AmaticSC-Regular';
+}
+
+/*font style end*/
+/*font size start*/
+.fs-10{
+	font-size: 10px;
+}
+.fs-14{
+	font-size: 14px;
+}
+.fs-15{
+	font-size: 11px;
+}
+.fs-16{
+	font-size: 16px;
+}
+.fs_20{
+	font-size: 22px;
+}
+.fs-25{
+	font-size: 25px;
+}
+.fs-28{
+	font-size: 28px;
+}
+.fs-30{
+	font-size: 30px;
+}
+.fs_55{
+	font-size: 55px;
+}
+.fs_65{
+	font-size: 65px;
+}
+
+/*font size end*/
+
+body, html{
+	font-family: 'Norse';
+}
+/*headerline style*/
+#headerline
+	{
+		background-color: #991818;
+	}
+/*end*/
+/*header start*/
+#header{
+	background-image: url('./../image/header_yellow_strip.png');
+	background-repeat:no-repeat;
+	position: relative;
+	min-height: 110px;
+	background-size: cover;
+	}
+
+/*header end*/
+/*banner style start */
+#banner{
+		background-image: url('./../image/homepage_banner.png');
+		width: 100%;
+		height: 600px;
+		background-repeat: round;
+		margin-top: -77px
+	}
+.banner_text{
+        flex-grow: 0;
+		min-width: 408px;
+		margin-top: 90px;
+    }
+ .banner_button{
+    	border: 3px solid;
+   		box-shadow: -5px 5px 0px 0px;
+   		border-radius: 0px;
+    } 
+   .banner_heading{
+   	color: #991818;
+   }
+/*banner style end */
+/*information style start*/
+.info_button{
+		background-color: #991818;
+	}
+
+/*information style start*/
+/* divine banner style start */
+.divine_banner{
+		background-image: url(./../image/banner_image.jpg);
+		margin-top:-35px;
+		background-repeat:round,space;
+		min-height: 600px;
+		background-size: cover;
+	}
+.paddind_container{
+		padding-left: 110px;
+		padding-right: 110px
+	}
+.banner_image{
+		height: 150px;
+	}
+/* divine banner style end */
+/*about food style start*/
+.aboutFood{
+		background-image: url('./../image/food_fit_for_a_goddess_banner.jpg');
+		margin-top:-2px;
+		background-repeat: round;
+		min-height: 427px;
+	}
+.food_section{
+	padding-top:4rem!important;
+}
+.food_text{
+   	 margin-top: 60px;
+   	 padding-left: 110px;
+   } 
+/*about food style end*/}
+/* product featured strat*/
+.product_image{
+   	height: 148px;
+    width: 170px;
+   }
+.card-img-top{
+   	height: 193px;
+   	object-fit: contain;
+   	width: 235px;
+   }
+.card{
+   	border:none;
+   }
+.product_text{
+   	color: #950017;
+   }
+ /* product featured end*/
+ /*customers says style start */
+#customers{
+ 	background-image: url(./../image/what_your_customer_say_slider_left_arrow.jpg);
+	background-repeat: round;
+	min-height: 600px;	
+ 	}
+.carousel-caption{
+		position: relative;
+		text-align: left;
+}
+.slider_blog_img{
+		width: 190px;
+		margin-top: -25px;
+}
+.slider_blog_caption{
+		margin-left: -96px;
+	}
+.blog_btn{
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		border: none;
+		box-shadow: 4px 1px rgb(243, 212, 15);
+	}
+.blog_btn_1{
+		box-shadow: -4px 1px white;
+	}	
+/*customers says style end */	
+/*catalogue style start */
+.catalogue_circle{
+	    background-color:#28bc9a;
+	    border-radius: 50%;
+	    width: 100px;
+	    height: 100px;
+	    margin-left: 69px;
+	}
+.slider{
+	    margin-top: -160px;
+	}
+.catalogue_circle-orange{
+		background-color: #f99e2ec9;
+	}
+.catalogue_circle-pink{
+		background-color: #fb85a0;
+	}
+.card-img-top_1{
+		height: 55px;
+		object-fit: contain;
+		margin-top: 24px;
+	}
+.banner_heading_color{
+		color: #991818;
+	}
+/*catalogue style end */
+/*footer style start*/
+#footer{
+		background-image: url(./../image/footer_banner.jpg);
+		background-repeat: no-repeat;
+ 		min-height: 400px;
+ 		background-size: cover;
+	}
+#subscribe_btn{
+		border: 3px solid #000000;	
+	    width: 175px;
+	    box-shadow: -2px 3px;
+	    border-radius: 0px;
+	    background-color: #950017;
+	}
+	input:hover{
+    border: 2px solid #999;
+    color: #000;
+}
+#input_box{
+	    width: 295px;
+	    box-shadow: -2px 3px #B1A8A9;
+	    border-radius: 0px;
+	    background-color: #544B4C;
+	}
+::placeholder{
+	  color: #B1A8A9;
+	  font-family: 'Athelas-BoldItalic';
+	  font-size:10px;
+	  text-align: start;
+	}
+.vl {
+  border-left: 1px solid white;
+  height: 300px;
+  position: absolute;
+  margin-left: 373px;
+}
+.vline {
+  border-left: 1px solid white;
+  height: 300px;
+  position: absolute;
+  margin-left: 700px;
+}
+.footer_horizontalline{
+  width: 93%;
+  background-color: white;
+  margin-top: 61px;
+}
+.footer_copyright{
+  padding-left: 62px;
+}
+.footer_privacy{
+  padding-left: 53px;
+}
+/*footer style end*/
+
+@media (min-width:1200px)
+{
+	/*navigation*/
+	.nav_logo{
+		display: none;
+	}
+	/*banner*/
+	.banner_text{
+        flex-grow: 0;
+		min-width: 678px;
+		margin-top: 90px;
+    }
+    /*infosection*/
+    #info_container{
+    	width: 70%;
+    }
+    .info_text{
+    	font-size: 15px;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1199px)
+{
+	/*navigationbar*/
+	.nav_text{
+		font-size: 23px;
+	}
+	.nav_logo{
+		display: none;
+	}
+	/*banner*/
+	.banner_image{
+		height: 121px;
+	}
+	/*aboutfood*/
+	.food_text {
+		padding-left: 0px;
+		padding-bottom: 60px;
+	}
+	.aboutFood_caption{
+		font-size: 10px;
+	}
+	/*catalogsection*/
+
+	.catalogue_circle{
+	    margin-left: 45px;
+	}
+	.banner_heading_color {
+		font-size: 26px;
+	}
+	.para_section{
+		font-size: 11px;
+	}
+	/*footerline*/
+	.vl {
+    border-left: none;
+}
+.vline {
+    border-left: none
+    }
+}
+
+
+@media (min-width:768px) and (max-width: 991px)
+{
+	/*navigationbar*/
+	.nav_image{
+		display: none;
+	}
+
+	/*infosection*/
+	.info_text{
+		font-size: 13px;
+	}
+	/*banner*/
+	.banner_image {
+		height: 92px;
+	}
+	.image_line{
+	margin-left: 0rem!important;
+	}
+	.fs-14 {
+    font-size: 10px;
+	}
+	.food_text {
+    margin-top: 0px; 
+    padding-left: 0px; 
+	}
+	/*customer says*/
+	
+	.slider_blog_img {
+    width: 145px;
+	}
+	.slider_blog_caption {
+    margin-left: -69px;
+	font-size: 17px;
+	}
+	/*catalogsection*/
+	.catalogue_circle{
+	    margin-left: 22px;
+	}
+	.banner_heading_color {
+		font-size: 18px;
+	}
+	.para_section{
+		font-size: 8px;
+	}
+	/*footerplacholder*/
+	#input_box {
+    width: 221px;
+	}
+
+	.vl {
+    border-left: none;
+}
+.vline {
+    border-left: none;
+    }
+    .footer_text{
+    	font-size: 13px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 767px)
+{
+	/*navigationbar*/
+	.nav_image {
+    display:none;
+}
+	.banner_image {
+    height: 200px;
+}
+	.divine_banner{
+		padding-bottom: 55px
+	}
+	.food_text {
+		text-align: center;
+		padding-left:0px;
+	}
+	/*aboutfood*/
+	.aboutFood {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+	.aboutFood_caption{
+		font-size: 14px;
+	}
+	/*divine_banner*/
+	.divine_banner {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+	/*customer says*/
+	#customers {
+    padding-bottom: 31px;
+	}
+    .slider_blog_img {
+    	margin-left: 86px;
+    }
+    .slider_blog_caption {
+    	text-align: center;
+	}
+	/*catalogsection*/
+	.catalogue_circle{
+	    margin-left: 68px;
+	}
+	/*footerline*/
+	.vl {
+    border-left: none;
+}
+.vline {
+    border-left: none;
+    }
+	.footer_text{
+    	font-size: 10px;
+    }
+}
+@media (min-width: 67px) and (max-width:576px) 
+{
+	/*navigationbar*/
+	.nav_image{
+    display: NONE;
+	}
+	.banner_image {
+    height: 234px;
+	}
+	.divine_banner{
+		padding-bottom: 55px
+	}
+	/*aboutfood*/
+	.aboutFood{
+	    background-position: center;
+	    background-repeat: no-repeat;
+	}
+	.aboutFood_caption{
+	font-size: 12px;
+	}
+	.food_text {
+		text-align: center;
+		padding-left:0px;
+	}
+	/*divini_banner*/
+	.divine_banner{
+		background-repeat: no-repeat;
+    	background-position: center;
+	}
+
+	/*customer says*/
+	#customers {
+    padding-bottom: 30px;
+	}
+	.slider_blog_img {
+    	margin-left: 36px;
+    }
+    .slider_blog_caption {
+    	text-align: center;
+	}
+
+	/*catalogsection*/
+	.catalogue_circle{
+	    margin-left: 115px;
+	}
+	/*footerline*/
+	.vl {
+    border-left: none;
+}
+.vline {
+    border-left: none;
+    }
+    .footer_text{
+    	font-size: 13px;
+    }
+}
